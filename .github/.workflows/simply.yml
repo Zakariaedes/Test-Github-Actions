@@ -1,0 +1,8 @@
+name: Simple Github Action
+on: push
+jobs:
+  run-shell-commands:
+    name: Running shell commands
+    runs-on: ubuntu_latest
+    steps:
+      - run: echo "Hello World!"
