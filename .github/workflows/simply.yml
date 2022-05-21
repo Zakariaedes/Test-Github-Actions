@@ -7,3 +7,12 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello World!"
+      - name: Multiple Commands
+        run: |
+          npm -v
+          node -v
+      - name: Python Command
+        run: |
+          import Platform
+          print(platform.processor())
+        shell: python
