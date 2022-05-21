@@ -3,6 +3,7 @@ on: push
 jobs:
   run-shell-commands:
     name: Running shell commands
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!"
+      - name: Hello World
+        run: echo "Hello World!"
