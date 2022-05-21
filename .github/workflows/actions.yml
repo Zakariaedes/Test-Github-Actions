@@ -7,4 +7,4 @@ jobs:
       - name: Simple JS Action
         uses: actions/hello-world-javascript-action@main
         with:
-          who-to-greet: 'Zakariae D'es
+          who-to-greet: "Zakariae D'es"
